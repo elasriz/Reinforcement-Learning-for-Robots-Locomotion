@@ -15,11 +15,11 @@ In this project, we provide the details of implementing a reinforcement learning
 
 ## TD3 Agent During training
 
-<img src="images\training.gif" width="256" height="256" />
+<img src="images\Training.gif" width="256" height="256" />
 
 ## Testing the trained TD3 Agent
 
-<img src="images\testing.gif" width="256" height="256" />
+<img src="images\Testing.gif" width="256" height="256" />
 
 ## Installation
 
