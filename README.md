@@ -18,8 +18,11 @@ A random agent chooses actions Randomly. It will quickly fall since its movement
 ## TD3 Agent During training
 
 Here, we display three stage from training. 
+
 At the beginning, when the agent chooses actions based on normal distribution. 
+
 At the middle, when the agent starts to learn greedily. 
+
 At the end of training, the agent learned to walk with a quite good gait.
 
 <img src="images\Training.gif" width="384" height="256" />
@@ -68,7 +71,7 @@ The seed in the test args must be the same used in the training.
 
 This model is closely based on (TD3) paper and an implementation for Minitaur:
 
-[1] [image](https://user-images.githubusercontent.com/72689460/160902855-c303f9ce-4b94-4fd4-a61f-388aabc841a6.png)
+[1] S. Fujimoto, H. van Hoof, and D. Meger. Addressing function approximation error in actorcritic methods. 2018
 https://arxiv.org/abs/1802.09477
 
 
