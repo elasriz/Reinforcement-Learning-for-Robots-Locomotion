@@ -1,11 +1,13 @@
 # Reinforcement Learning for Robots Locomotion Learning
 
-Killian SUSINI - Zakariae EL ASRI
+Authors: Killian SUSINI - Zakariae EL ASRI
 
 
 ## Summary
 
 In this project, we provide the details of implementing a reinforcement learning (RL) algorithm for controlling a multi-legged robot. In particular, we describe the implementation of TD3 (twin-delayed deep deterministic policy gradient) concept to train a Walker-2D to move across a line. In the process, we used OpenAI/Gym environments and Pytorch utilities.
+
+A tutorial is availible in this google colab: https://colab.research.google.com/drive/1sJuJ-as_bK9le_CpF41EV2jBVG383V6m?usp=sharing![image](https://user-images.githubusercontent.com/72689460/160906010-661ff04a-ce93-4b1d-b28d-2ce80fcbec48.png)
 
 
 
