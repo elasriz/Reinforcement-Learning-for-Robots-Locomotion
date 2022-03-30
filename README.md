@@ -1,6 +1,9 @@
-# Reinforcement Learning for Robots Locomotion Learning
+# Reinforcement Learning for Robots Locomotion
 
-Authors: Killian SUSINI - Zakariae EL ASRI
+![images](images/pybullet.png?raw=true)
+
+### Authors
+Killian SUSINI - Zakariae EL ASRI
 
 
 ## Summary
@@ -15,7 +18,7 @@ A tutorial is availible in this google colab: https://colab.research.google.com/
 
 A random agent chooses actions Randomly. It will quickly fall since its movements are not synchronous.
 
-<img src="images\random_agent.gif" width="384" height="256" />
+<img src="images\random_agent.gif" width="640" height="512" />
 
 
 ## TD3 Agent During training
@@ -28,14 +31,25 @@ At the middle, when the agent starts to learn greedily.
 
 At the end of training, the agent learned to walk with a quite good gait.
 
-<img src="images\Training.gif" width="384" height="256" />
+<img src="images\Training.gif" width="640" height="512" />
 
 
 ## Testing the trained TD3 Agent
 
 Here, we apply the policy learned during training to a new test episode.
 
-<img src="images\Testing.gif" width="384" height="256" />
+<img src="images\Testing.gif" width="640" height="512" />
+
+## Results
+After training our Agent in the Walkerd-2D-V0 environment for 1.5 Million time-steps, we get the following results
+
+![images](images/results.png?raw=true)
+
+## Files
+
+* ``td3_learning_main.py``          : This is the main code .py
+* ``TD3_Walker2D_Tutorial.ipynb``   : A tutorial from Google Collab
+* ``Report_TD3_Walker2D.pdf``       : The final Report for the project.
 
 
 ## Installation
@@ -64,13 +78,6 @@ For testing:
 ```    
 The seed in the test args must be the same used in the training.
 
-
-
-## Files
-
-* ``td3_learning_main.py``          : This is the main code .py
-* ``TD3_Walker2D_Tutorial.ipynb``   : A tutorial from Google Collab
-* ``Report_TD3_Walker2D.pdf``       : The final Report for the project.
 
 ## Further Reading
 
