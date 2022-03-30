@@ -7,7 +7,7 @@ Authors: Killian SUSINI - Zakariae EL ASRI
 
 In this project, we provide the details of implementing a reinforcement learning (RL) algorithm for controlling a multi-legged robot. In particular, we describe the implementation of TD3 (twin-delayed deep deterministic policy gradient) concept to train a Walker-2D to move across a line. In the process, we used OpenAI/Gym environments and Pytorch utilities.
 
-A tutorial is availible in this google colab: https://colab.research.google.com/drive/1sJuJ-as_bK9le_CpF41EV2jBVG383V6m?usp=sharing![image](https://user-images.githubusercontent.com/72689460/160906010-661ff04a-ce93-4b1d-b28d-2ce80fcbec48.png)
+A tutorial is availible in this google colab: https://colab.research.google.com/drive/1sJuJ-as_bK9le_CpF41EV2jBVG383V6m?usp=sharing
 
 
 
@@ -16,6 +16,7 @@ A tutorial is availible in this google colab: https://colab.research.google.com/
 A random agent chooses actions Randomly. It will quickly fall since its movements are not synchronous.
 
 <img src="images\random_agent.gif" width="384" height="256" />
+
 
 ## TD3 Agent During training
 
@@ -29,11 +30,13 @@ At the end of training, the agent learned to walk with a quite good gait.
 
 <img src="images\Training.gif" width="384" height="256" />
 
+
 ## Testing the trained TD3 Agent
 
 Here, we apply the policy learned during training to a new test episode.
 
 <img src="images\Testing.gif" width="384" height="256" />
+
 
 ## Installation
 
@@ -65,9 +68,9 @@ The seed in the test args must be the same used in the training.
 
 ## Files
 
-* ``td3_learning_main.py``: This is the main code .py
-* ``TD3_Walker2D_Tutorial.ipynb``: A tutorial from Google Collab
-* ``Report_TD3_Walker2D.pdf``: The final Report for the project.
+* ``td3_learning_main.py``          : This is the main code .py
+* ``TD3_Walker2D_Tutorial.ipynb``   : A tutorial from Google Collab
+* ``Report_TD3_Walker2D.pdf``       : The final Report for the project.
 
 ## Further Reading
 
