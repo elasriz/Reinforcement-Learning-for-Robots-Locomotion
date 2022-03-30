@@ -2,7 +2,6 @@
 
 Killian SUSINI - Zakariae EL ASRI
 
-# TD3 (Twin Delayed Deep Deterministic Policy Gradients)
 
 ## Summary
 
@@ -12,13 +11,15 @@ In this project, we provide the details of implementing a reinforcement learning
 
 ## Random agent
 
-<img src="images\random_agent.gif" width="256" height="256" />
+<img src="images\random_agent.gif" width="384" height="256" />
 
 ## TD3 Agent During training
 
+<img src="images\training.gif" width="256" height="256" />
 
 ## Testing the trained TD3 Agent
 
+<img src="images\testing.gif" width="256" height="256" />
 
 ## Installation
 
